@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29926.136
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IRC-Server", "IRC-Server\IRC-Server.csproj", "{EDB863A1-7DAD-48DA-B5C5-0FEF78D5FB8D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IRC-Client", "IRC-Client\IRC-Client.csproj", "{195CBA94-98A6-4A2F-8859-C4C58E978C3F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IRC-Common", "IRC-Common\IRC-Common.csproj", "{933A7779-4815-4EE5-A189-6A3087460E35}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{0922E602-BD5F-41C6-935C-991CCC11DFDB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EDB863A1-7DAD-48DA-B5C5-0FEF78D5FB8D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EDB863A1-7DAD-48DA-B5C5-0FEF78D5FB8D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EDB863A1-7DAD-48DA-B5C5-0FEF78D5FB8D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EDB863A1-7DAD-48DA-B5C5-0FEF78D5FB8D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{195CBA94-98A6-4A2F-8859-C4C58E978C3F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{195CBA94-98A6-4A2F-8859-C4C58E978C3F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{195CBA94-98A6-4A2F-8859-C4C58E978C3F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{195CBA94-98A6-4A2F-8859-C4C58E978C3F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{933A7779-4815-4EE5-A189-6A3087460E35}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{933A7779-4815-4EE5-A189-6A3087460E35}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{933A7779-4815-4EE5-A189-6A3087460E35}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{933A7779-4815-4EE5-A189-6A3087460E35}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {89DA0E03-04C2-46B9-88A3-A9EC84411923}
+	EndGlobalSection
+	GlobalSection(CodealikeProperties) = postSolution
+		SolutionGuid = 4266ca85-a1fa-427f-bfd9-1ea46620c6a7
+	EndGlobalSection
+EndGlobal
