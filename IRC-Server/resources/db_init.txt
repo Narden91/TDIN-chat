@@ -1,0 +1,2 @@
+﻿CREATE TABLE users (nickname VARCHAR(20) PRIMARY KEY, realname VARCHAR(40), password VARCHAR(20))
+CREATE TABLE sessions (nickname VARCHAR(20) PRIMARY KEY, ip VARCHAR(15), port INTEGER, FOREIGN KEY (nickname) REFERENCES users(nickname))
